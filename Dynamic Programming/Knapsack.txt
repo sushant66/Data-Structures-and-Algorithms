@@ -1,0 +1,61 @@
+***Knapsack****
+Given bag 
+for eg bag of 7kg
+fill the bag to maximize profit
+
+item1 2kg 20rupees 
+item2 2kg 40ruppes
+item3 5kg 50rupees     so we;ll take item2 and 3
+
+
+****Fractional knapsack*****
+for eg bag of 9kg
+item1 8kg 50rupees
+item2 2kg 30 rupees
+
+Now if we take item1 still we have 1 kg space so we'll take fraction of item 2
+i.e 1kg with 15 rupees
+
+Can be done using Greeedy approach
+
+*****0/1 Knapsack********
+we will take it full or we will not take it at all
+No fraction will be taken
+
+Thats why called as 0/1 
+0-Dont take
+1-Take full
+
+This problem is solved using DP
+
+
+****Unbounded Knapsack*****
+In this we can pick same item multiple times
+In 0/1 we cant pick same item multiple times
+
+
+
+*******How to identify DP problem*************
+1. Choice  (Take or not)
+2. Optimal (max, min,large...)
+
+
+Recursive - Memoization - Top Down Approach
+
+DP - Recursion + Storage
+
+
+Top Down --	When we start from dp[n] (recursive)
+Bottom Up -- When we start from base case and go till dp[n] (Iterative)
+
+
+*****Changing from recursive to iterative*****
+use base case of recursion to initialize table in iteration
+for eg if n == 0 or w == 0:			
+			return 0			
+	    -------W
+	   |0 0 0 0
+	   |0
+	   |0 
+	   |0
+	   N
