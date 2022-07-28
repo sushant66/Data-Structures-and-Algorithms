@@ -1,0 +1,99 @@
+Trees
+
+Hierarchial data structure and non linear
+
+
+		o   -- root
+		
+	o      o  -- children
+            
+o --  leaf    o 
+
+
+
+Types of Binary Tree
+Full Binary Tree -- Either has 0 or 2 children
+ 	  o
+ 	 
+ 	o    o
+ 
+ o    o
+ 
+ 
+ Complete Binary Tree -- All the levels are completely filled except last level
+ 						The last level has all nodes in left as possible
+ 						
+ 		   o
+ 			 
+ 		o      o     
+ 	
+ 	o      o       o    --- left missing not allowed
+ 	
+ 	
+Perfect Binary Tree  -- All leaf nodes are at same level
+		
+		 o
+	
+	 o       o
+	 
+   o   o   o    o
+   
+
+Balanced Binary Tree -- Height of tree at max log(N)
+	n = 8   log 8  = 3    n -- number of nodes
+			   2
+   
+   		o   	    for n = 3 log 3 = 1 level
+   	  o             so this tree is invalid as it has 3 levels
+   	o
+   
+Degenerate Tree --- When every node has only single child 
+	eg the tree above
+	
+	
+Tree Traversal
+BFS/DFS
+		1
+
+	2       3
+
+ 4     5  6   7
+ 
+ 
+ 			1
+ 		  2   3
+        4  5 6 7
+          8     10
+
+DFS Traversals 
+	Apply formula at each sub tree
+	
+	Inorder Traversal   (left root right)
+	
+	(4 2 5) 1 (6 3 7)
+	
+	4 2 8 5 1 6 3 7 10
+	
+	Pre Order Traversal  (root left right)
+	
+	(1) (2 4 5) (3 6 7)
+	
+	1 2 4 5 8 3 6 7 10
+	
+	Post Order Traversal  (left right root)
+	
+	(4 5 2) (6 7 3) (1) 
+	
+	4 8 5 2 6 10 7 3 1
+	
+BFS Traversal/ Level Order Traversal
+	It travels level wise
+	
+	1 2 3 4 5 6 7
+	
+	1 2 3 4 5 6 7 8 10
+	
+   
+   
+We cannot construct a unique binary tree from preorder and postorder
+It can be done using preorder inorder or inorder postorder
