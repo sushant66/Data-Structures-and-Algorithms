@@ -1,4 +1,4 @@
-# Python
+# Data Structures and Algorithms in Python
 
 ## Dynamic Programming
 - [Knapsack](Dynamic%20Programming/01_knapsack.py)
@@ -49,4 +49,47 @@
 - [Palindrome Partitioning 2](Dynamic%20Programming/48_Palindrom_Partitioning_2.py)
 - [Partition Array to get the Max Sum](Dynamic%20Programming/49_Partition_Array_Max_Sum.py)
 - [Submatrices with all 1's](Dynamic%20Programming/50_Submatrices_with_all_1.py)
+
+
+## Trees
+- [Level Order Traversal](Trees/01_Level_Order_Traversal.py)
+- [Tree Traversals](Trees/02_Tree_Traversals.py)
+- [Maximum Depth of Binary Tree](Trees/03_Maximum_Depth_Binary_Tree.py)
+- [Balanced Binary Tree](Trees/04_Balanced_Binary_Tree.py)
+- [Diameter of Binary Tree](Trees/05_Diameter_Binary_Tree.py)
+- [Max Path Sum in Binary Tree](Trees/07_Max_Path_Sum_Binary_Tree.py)
+- [Same Tree](Trees/08_Same_Tree.py)
+- [ZigZag Traversal](Trees/09_Zigzag_Traversal.py)
+- [Boundary Traversal](Trees/10_Boundary_Traversal.py)
+- [Vertical Order Traversal](Trees/40_Vertical_Order_Traversal.py)
+- [Top View of Binary Tree](Trees/11_Top_View_Binary_Tree.py)
+- [Bottom View of Binary Tree](Trees/12_Bottom_View_Binary.py)
+- [Max width of Binary Tree](Trees/13_Max_Width_Binary_Tree.py)
+- [Right and Left View of Binary Tree](Trees/14_RIght_or_Left_view.py)
+- [Symmetry Tree](Trees/15_Symmetry_Tree.py)
+- [Print Root to Node Path](Trees/16_Print_Root_To_Node_Path.py)
+- [Lowest Common Ancestor in Binary Tree](Trees/18_Lowest_Common_Ancestor.py)
+- [Children Sum Property](Trees/19_Children_Sum_Property.py)
+- [Nodes at Distance K](Trees/20_Nodes_at_distance_K.py)
+- [Count Nodes in Complete Binary Tree](Trees/21_Count_nodes_in_CBT.py)
+- [Construct Tree from Preorder and Inorder](Trees/22_Construct_Tree_Pre_In.py)
+- [Construct Tree from Postorder and Inorder](Trees/23_Construct_tree_post_in.py)
+- [Serialize Deserialize Binary Tree](Trees/24_Serialize_Deserialize.py)
+- [Morris Traversal](Trees/25_Morris_Traversal.py)
+- [Flatten Tree to Linked List](Trees/26_Flatten_tree.py)
+- [Search in BST](Trees/27_Search_BST.py)
+- [Floor Ceil in BST](Trees/28_Floor_Ceil_BST.py)
+- [Insert in BST](Trees/29_Insert_BST.py)
+- [Delete Node in BST](Trees/30_Delete_Node_BST.py)
+- [Kth Smallest Element in BST](Trees/31_Kth_Smallest_elem_BST.py)
+- [Validate BST](Trees/32_Validate_BST.py)
+- [Lowest Common Ancestor in BST](Trees/33_LCA_BST.py)
+- [Construct BST from Preorder](Trees/34_Construct_BST_Preorder.py)
+- [Inorder Successor in BST](Trees/35_Inorder_Successor.py)
+- [BST Iterator](Trees/36_BST_Interator.py)
+- [Two Sum in BST](Trees/37_Two_Sum_BST.py)
+- [Recover BST](Trees/38_Recover_BST.py)
+- [Largest BST in Binary Tree](Trees/39_Largest_BST_BT.py)
+
+
 
