@@ -71,6 +71,7 @@
 - [Lowest Common Ancestor in Binary Tree](Trees/18_Lowest_Common_Ancestor.py)
 - [Children Sum Property](Trees/19_Children_Sum_Property.py)
 - [Nodes at Distance K](Trees/20_Nodes_at_distance_K.py)
+- [Minimum Time take to burn tree from node](Trees/41_Min_time_to_Burn.py)
 - [Count Nodes in Complete Binary Tree](Trees/21_Count_nodes_in_CBT.py)
 - [Construct Tree from Preorder and Inorder](Trees/22_Construct_Tree_Pre_In.py)
 - [Construct Tree from Postorder and Inorder](Trees/23_Construct_tree_post_in.py)
