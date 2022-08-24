@@ -22,7 +22,7 @@ root.right.right = TreeNode(7)
 """
 
 #Inorder Traversal
-print("Inorder")
+print("Inorder Traversal - ")
 def inorder(root):
     if not root:
         return 
@@ -34,7 +34,7 @@ def inorder(root):
 inorder(root)
 
 #Preorder Traversal
-print("Preorder")
+print("Preorder Traversal - ")
 def preorder(root):
     if not root:
         return 
@@ -47,7 +47,7 @@ preorder(root)
 
 
 #Postorder Traversal
-print("Postorder")
+print("Postorder Traversal - ")
 def postorder(root):
     if not root:
         return 
